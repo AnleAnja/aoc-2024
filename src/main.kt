@@ -1,10 +1,14 @@
-import kotlin.math.absoluteValue
 import java.io.File
 
+var list1 = mutableListOf<Int>()
+var list2 = mutableListOf<Int>()
+
 fun main() {
-    var input = "src/input.txt"
-    var list1 = mutableListOf<Int>()
-    var list2 = mutableListOf<Int>()
+    getInput("src/input.txt")
+    day1part1(list1, list2)
+}
+
+fun getInput(input: String) {
     File(input).useLines { lines ->
         lines.forEach { line ->
             val parts = line.split("\\s+".toRegex())
@@ -14,10 +18,4 @@ fun main() {
     }
     list1.sort()
     list2.sort()
-    var sum = 0
-    for (i in list1.indices) {
-        val diff = list1[i] - list2[i]
-        sum += diff.absoluteValue
-    }
-    println(sum)
 }
