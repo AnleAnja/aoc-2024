@@ -1,11 +1,14 @@
+package day1
+
 import java.io.File
 
 var list1 = mutableListOf<Int>()
 var list2 = mutableListOf<Int>()
 
 fun main() {
-    getInput("src/input.txt")
+    getInput("src/day1/input.txt")
     day1part1(list1, list2)
+    day1part2(list1, list2)
 }
 
 fun getInput(input: String) {

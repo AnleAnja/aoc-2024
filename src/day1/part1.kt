@@ -1,5 +1,6 @@
+package day1
+
 import kotlin.math.absoluteValue
-import java.io.File
 
 fun day1part1(list1: MutableList<Int>, list2: MutableList<Int>): Int {
     var sum = 0

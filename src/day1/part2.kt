@@ -1,3 +1,5 @@
+package day1
+
 fun day1part2 (list1: MutableList<Int>, list2: MutableList<Int>): Int {
     var similarity = 0
     list1.forEach { number ->
