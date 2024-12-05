@@ -11,7 +11,8 @@ This is my repository for solving the [Advent of Code 2024](https://adventofcode
 
 ---
 
-📂 Repository Structure
+## 📂 Repository Structure
+
 Solutions are organized by day:
 
 ```
@@ -26,9 +27,9 @@ Solutions are organized by day:
 ...
 ```
 
-input.txt: Contains the specific input for the day's challenge.
-part1.kt: Solution for part 1 of the problem.
-part2.kt: Solution for part 2 of the problem.
+* `input.txt`: Contains the specific input for the day's challenge.
+* `part1.kt`: Solution for part 1 of the problem.
+* `part2.kt`: Solution for part 2 of the problem.
 
 ---
 
@@ -40,3 +41,4 @@ part2.kt: Solution for part 2 of the problem.
 | 2    | ✅                 | ✅     | ✅     |
 | 3    | 🕗                 | 🕗     | 🕗     |
 | 4    | 🕗                 | 🕗     | 🕗     |
+| 5    | 🕗                 | 🕗     | 🕗     |
